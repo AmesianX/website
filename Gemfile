@@ -2,8 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", git: 'https://github.com/middleman/middleman',
-    ref: 'eddb124' # ruby 2.4 syntax
+gem "middleman"
 
 gem 'middleman-s3_sync'
 gem 'mime-types'
